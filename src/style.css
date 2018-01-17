@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Encode+Sans+Expanded");
+body {
+  padding: 2% 5%;
+  line-height: 1.8rem;
+  font-family: "Encode Sans Expanded", sans-serif;
+  color: black; }
+
+li {
+  margin: 1rem 0;
+  padding: 1rem;
+  border-left: 2px solid black; }
+  li input.post {
+    width: 30%;
+    padding: 0.2rem;
+    font-size: 1rem;
+    color: brown;
+    margin-right: 1rem; }
+  li span.album {
+    color: darkcyan;
+    margin-right: 1rem; }
+  li span.name {
+    color: darkmagenta;
+    margin-right: 1rem; }
+  li span.update {
+    margin-right: 1rem; }
+  li span.updsuccess {
+    margin-right: 1rem;
+    padding: 0.2rem 0.5rem;
+    background: lightgreen;
+    border: 1px solid lightgreen; }
+  li span.delete, li span.update {
+    padding: 0.2rem 0.5rem;
+    border: 1px solid black;
+    background-color: lightgrey; }
+  li span.delete:hover, li span.update:hover {
+    cursor: default;
+    color: slategrey;
+    border-color: slategrey; }
+  li:hover {
+    background-color: lightgoldenrodyellow; }
+
+/*# sourceMappingURL=style.css.map */
